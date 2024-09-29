@@ -1,0 +1,13 @@
+.header{
+    font-size: 100px;
+}
+
+.pantalones{
+    position: absolute;
+    right: 1px;
+}
+
+.camisas{
+    position: absolute;
+    left:1px;
+}

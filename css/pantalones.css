@@ -1,0 +1,13 @@
+.header{
+    font-size: 100px;
+}
+
+.pantalon1{
+    position: absolute;
+    right: 1px;
+}
+
+.pantalon2{
+    position: absolute;
+    left:1px;
+}
