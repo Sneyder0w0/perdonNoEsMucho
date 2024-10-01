@@ -1,13 +1,15 @@
 .header{
     font-size: 100px;
 }
-
 .camisa1{
     position: absolute;
     right: 1px;
 }
-
 .camisa2{
     position: absolute;
     left:1px;
+}
+.camisa3{
+    position: absolute;
+    right: 720px;
 }

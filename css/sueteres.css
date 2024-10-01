@@ -2,17 +2,17 @@
     font-size: 100px;
 }
 
-.pantalones{
+.sueter1{
     position: absolute;
     right: 1px;
 }
 
-.camisas{
+.sueter2{
     position: absolute;
     left:1px;
 }
 
-.sueteres{
+.sueter3{
     position: absolute;
     right: 720px;
 }

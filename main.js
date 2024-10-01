@@ -11,3 +11,10 @@ var pantalones = document.getElementById("pantalones");
           window.location.href = "html/pantalones.html";
         });
       }
+
+var sueteres = document.getElementById("sueteres");
+      if (sueteres) {
+        sueteres.addEventListener("click", function (e) {
+          window.location.href = "html/sueteres.html";
+        });
+      }

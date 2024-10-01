@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa</title>
+</head>
+<body>
+    <h1>Tienda de Ropa</h1>
+    <form id="formularioRopa">
+        <label for="tipo">Tipo de ropa:</label>
+        <select id="tipo" name="tipo">
+            <option value="camisa">Camisa</option>
+            <option value="pantalon">Pantalón</option>
+            <option value="Sueter">Sueter</option>
+        </select><br><br>
+
+        <label for="talla">Talla:</label>
+        <select id="talla" name="talla">
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+        </select>
+
+        <label for="color">Color:</label>
+        <input type="text" id="color" name="color" placeholder="Ej. rojo"><br><br>
+
+        <button type="button" onclick="crearRopa()">Comprar</button>
+    </form>
+
+    <h2>Detalles de la compra:</h2>
+    <div id="resultado"></div>
+
+    <script src="../js/compras.js"></script>
+</body>
+</html>
